@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(135deg, #eee, #797979);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    /*margin-top: 10px;*/
+    padding-bottom: 70px;
+    /*height: 670px;*/
+    overflow: scroll;
+}
+
+.details-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.data{
+    padding: 10px;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+    color: #444;
+    box-shadow: inset 1px 1px 1px grey;
+    width: 60%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.label{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #444;
+    width: 150px;
+}
+.text{
+    color: #eee;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+.btn{
+    width: 50%;
+}
+
+.data-container{
+    padding: 15px 10px;
+    border: 1px solid #797979;
+    border-radius: 5px;
+    background-color: #303030;
+    color: #fff;
+    /*height: 80%;*/
+    width: 90%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 3px 3px 15px 0px black;
+}
+
+.margin{
+    margin: 10px;
+}
+
+#message{
+    color: red;
+    font-style: italic;
+}
+
+#save, #close {
+    background-color: #797979;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

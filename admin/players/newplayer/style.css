@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(135deg, #eee, #797979);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    margin-top: 10px;
+    height: 670px;
+    overflow: scroll;
+}
+
+.details-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.data{
+    padding: 10px;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+    color: #444;
+    box-shadow: inset 1px 1px 1px grey;
+    width: 60%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.label{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #444;
+    width: 150px;
+}
+
+hr{
+    width: 90%;
+}
+
+.btn{
+    width: 50%;
+}
+
+.message{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
